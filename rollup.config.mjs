@@ -14,7 +14,7 @@ const importsGeneral = {
   'gi://Graphene?version=1.0': { name: 'gi://Graphene' },
   'gi://Pango?version=1.0': { name: 'gi://Pango' },
   'gi://Soup?version=3.0': { name: 'gi://Soup' },
-  'gi://St?version=16': { name: 'gi://St' },
+  'gi://St?version=17': { name: 'gi://St' },
 
   // non core dependencies (can have version specifier!)
   'gi://Gda?version=5.0': { name: 'gi://Gda?version>=5.0' }, // We officially support (it's also typed!) both 5.0 and 6.0
@@ -40,10 +40,10 @@ const importsExtension = {
   ...importsGeneral,
 
   // only allowed in extension.js
-  'gi://Meta?version=16': { name: 'gi://Meta' },
-  'gi://Clutter?version=16': { name: 'gi://Clutter' },
-  'gi://Cogl?version=16': { name: 'gi://Cogl' },
-  'gi://Shell?version=16': { name: 'gi://Shell' },
+  'gi://Meta?version=17': { name: 'gi://Meta' },
+  'gi://Clutter?version=17': { name: 'gi://Clutter' },
+  'gi://Cogl?version=17': { name: 'gi://Cogl' },
+  'gi://Shell?version=17': { name: 'gi://Shell' },
 
   // special extension resources
   '@girs/gnome-shell/dist/extensions/extension': { name: 'resource://EXT_ROOT/extensions/extension.js' },

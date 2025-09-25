@@ -96,6 +96,7 @@ Since Gnome 45 we had to break compatibility with previous Gnome versions, these
 - Gnome Shell 46
 - Gnome Shell 47
 - Gnome Shell 48
+- Gnome Shell 49
 
 ## Installation
 
